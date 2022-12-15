@@ -31,11 +31,16 @@ export function App() {
         <button onClick={handleAddStudent}> ADICIONAR </button>
 
         {students.map((student) => (
-          <Card name={student.name} age={student.age} time={student.time} />
+          <Card
+            key={student.time}
+            name={student.name}
+            age={student.age}
+            time={student.time}
+          />
         ))}
       </div>
     </div>
   );
 }
 
-export default App;
+
