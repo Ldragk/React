@@ -35,38 +35,77 @@ input {
   border: none;
 }
 
-button {
-  color: #ffffff;  
+input::placeholder {
+  color: azure;
+  opacity: 40%;
+  padding-left: 1rem;
+}
+
+.button {
+  color: #ffffff;
   border-radius: 8px;
-  border: 2px solid transparent;  
-  padding: 0.6em 1.2em;  
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 900;
   font-family: inherit;
   background-color: #ad00fd;
   cursor: pointer;
-  transition: border-color 0.25s;  
+  transition: border-color 0.25s;
 }
-button:hover {
-  border: 2px solid #000000;  
+.button:hover {
+  border: 2px solid #000000;
 }
-
 
 .card {
   display: flex;
   align-items: center;
-  justify-content: space-between;  
+  justify-content: space-between;
   padding: 1rem;
   border-radius: 8px;
-  color: #ad00fd; 
+  color: #ad00fd;
   height: 60px;
-  width: 100%;  
-  background-color: #e0e0e0;  
-  border: solid 2px #ad00fd;  
+  width: 100%;
+  background-color: #e0e0e0;
+  border: solid 2px #ad00fd;
 }
 
-.cardDiv{
+.cardDiv {
   width: auto;
-
   background-color: transparent;
+}
+
+.Menu {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  height: 10%;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  width: auto;
+  height: 10rem;
+}
+
+.linkB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 15rem;
+  height: 6rem;
+  border: none;
+  font-size: 3rem;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+}
+
+.title {
+  font-size: 5rem;
+  color: #ad00fd;
+  text-align: center;
 }
