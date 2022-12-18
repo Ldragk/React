@@ -36,6 +36,8 @@ export function UseState() {
     setStudents((prevState) => [...prevState, newStudent]);
   }
 
+
+
   // useEffect(() => {
 
   // }, []);
@@ -79,7 +81,7 @@ export function UseState() {
           </button>
         </div>
       </div>
-      <div className="cards"> 
+      <div className="cards">
         {students.map((student) => (
           <Card
             key={student.time}
