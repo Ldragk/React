@@ -1,6 +1,4 @@
 * {
-  width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,11 +15,8 @@
 }
 
 .div2 {
-  width: 500px;
-  height: 100px;
   color: rgb(255, 254, 254);
   font-size: 20px;
-  /* position: fixed; */
   display: grid;
   gap: 20px;
 }
@@ -60,19 +55,27 @@ input::placeholder {
 .card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
   border-radius: 8px;
   color: #ad00fd;
-  height: 60px;
-  width: 100%;
+  height: 120px;
+  width: 600px;
   background-color: #e0e0e0;
   border: solid 2px #ad00fd;
 }
 
 .cardDiv {
-  width: auto;
+  /* width: auto; */
   background-color: transparent;
+}
+
+.cards{
+  margin-top: 7rem;
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .Menu {
@@ -90,22 +93,28 @@ input::placeholder {
   height: 10rem;
 }
 
-.linkB {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  width: 15rem;
-  height: 6rem;
-  border: none;
-  font-size: 3rem;
-  border-radius: 8px;
-  background-color: #e0e0e0;
-}
-
 .title {
   font-size: 5rem;
   color: #ad00fd;
   text-align: center;
+}
+
+.divPerfil {
+  display: grid;
+  width: 3px;
+  
+}
+
+.namePerfil {
+  font-size: small;
+  color: #ad00fd;
+  background-color: transparent;
+  text-align: center;
+}
+
+.imgPerfil {
+  margin: auto;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
